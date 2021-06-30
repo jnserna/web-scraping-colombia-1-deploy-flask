@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+		<script src="{{ url_for('static', filename='js/java.js') }}"></script>
+	</head>
+	<body>
+	    <h1>CONSULTAR PRODUCTOS EN: <br> <span class= 'underline'> <a target="_blank" href='https://www.homecenter.com.co'> www.homecenter.com.co </a></span></h1>
+	<div>
+	  <center><form action="/consultar" method="POST">
+	  	<label for="producto">Producto a buscar:</label><br>
+	    <input type="string" id="producto" name="producto" required="required"><br>	   
+	    <br>
+	    <input type="submit" value="Buscar">
+	  </form>
+
+	<button onclick="exportTableToExcel('tblData')">Descargar Excel</button>
+
+	<h3>Resultado búsqueda: &nbsp &nbsp &nbsp &nbsp {{ items|length - 1 }} productos</h3>
+
+	<table class='resultado' id="tblData">
+	{%- for row in items %}
+	  <tr>
+	  {%- for column in row %}
+	    <td>{{ column }}</td>
+	  {%- endfor %}
+	  </tr>
+	{%- endfor %}
+	</table>
+
+	</center>
+
+	</div>
+	</body>
+</html>
