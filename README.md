@@ -18,7 +18,7 @@ This deployment was developed jointly by [Valentina Marín](https://github.com/v
 #
 #
 #
-Este repo contiene un un web scraper despleguado con Flask. El código de búsqueda (web scraping en un ecommerce popular en Colombia) puede ser revisado [aquí](https://github.com/jnserna/web-scraping-colombia-1).
+Este repo contiene un web scraper desplegado con Flask. El código de búsqueda (web scraping en un ecommerce popular en Colombia) puede ser revisado [aquí](https://github.com/jnserna/web-scraping-colombia-1).
 #
 Instrucciones:<br />
 1 - Descargar la carpeta App<br />
