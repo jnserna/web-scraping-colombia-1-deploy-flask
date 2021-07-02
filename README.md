@@ -3,8 +3,8 @@
 This repo contains a web scraper deployed using Flask. The "core code" for the search (web scraping in a popular ecommerce in Colombia) could be seen [here](https://github.com/jnserna/web-scraping-colombia-1).
 #
 Instructions:
-1 - Download the folder App.
-2 - Open terminal and run python (local -you must have Python installed in your pc-)
+1 - Download the folder App.<br />
+2 - Open terminal and run python (local -you must have Python installed in your pc-)<br />
 3 - Open a new terminal and go into the folder (volume) App.
 4 - Run (using terminal from step 3) the file App.py
 5 - Open the http in a new tab in your navigator
